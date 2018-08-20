@@ -1,0 +1,21 @@
+{
+  "name": "webpage",
+  "version": "1.0.0",
+  "description": "## Installation `npm install`",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "child_process": "^1.0.2",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "formidable": "^1.2.1",
+    "improved": "^1.5.1",
+    "python-shell": "^0.5.0",
+    "request": "^2.87.0"
+  }
+}

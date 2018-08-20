@@ -1,0 +1,213 @@
+/*
+
+  Styles from this codepen:
+
+  https://codepen.io/official_naveen/pen/rgknI
+
+*/
+/*
+body {
+  width: 100%;
+  height: 100vh;
+  min-height:100vh;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  /*background: linear-gradient(to bottom, #000000 50%, #FFFFFF 50%);*/
+
+}
+*/
+html { height:100%; }
+body { 
+	position:absolute; 
+	top:0; 
+	bottom:0; 
+	right:0; 
+	left:0; 
+	margin: 0;
+}
+
+.h1 {
+	
+	size: 40px;
+	color: #0000FF;
+	
+}
+
+.header {
+	background-color: #000000;
+	padding-left: 20px;
+	padding-bottom: 20px;
+	padding-top:20px;
+	padding-left:20px;
+	text-align: left;
+	
+}
+
+.footer {
+	position:absolute;
+	bottom:0;
+	left:0;
+	right:0;
+	background-color: #ffffff;
+	padding-bottom: 20px;
+	padding-left:20px;
+	text-align: right;
+	
+}
+
+.content {
+	background: linear-gradient(to bottom, #00FFF0 50%, #ABCFFF 50%);
+}
+
+h1 {
+	padding-left: 100px;
+	color: #FFFFFF;
+}
+
+
+
+.container {
+
+  width: 600px;
+  height: 600px;
+
+  margin: 0 auto;
+
+}
+
+.class1,
+.class2,
+.class3 {
+  width: 33.33%;
+  float: left;
+  height: 100px;
+}
+
+
+fieldset {
+
+  display: block;
+
+  -webkit-margin-start: 0px;
+
+  -webkit-margin-end: 0px;
+
+  -webkit-padding-before: 0em;
+
+  -webkit-padding-start: 0em;
+
+  -webkit-padding-end: 0em;
+
+  -webkit-padding-after: 0em;
+
+	border:0;
+	
+	  border-image-source: initial;
+
+  border-image-slice: initial;
+
+  border-image-width: initial;
+
+  border-image-outset: initial;
+
+  border-image-repeat: initial;
+
+  min-width: -webkit-min-content;
+
+  padding: 30px;
+
+}
+
+.ghost-input, p {
+
+  display: block;
+
+  font-weight:300;
+
+  width: 100%;
+
+  font-size: 25px;
+
+  border:0px;
+
+  outline: none;
+
+  width: 100%;
+
+  -webkit-box-sizing: border-box;
+
+  -moz-box-sizing: border-box;
+
+  box-sizing: border-box;
+
+  color: #000000;
+
+  background: #fff;
+
+  font-family: Open Sans,Verdana;
+
+  padding: 10px 15px;
+
+  margin: 30px 0px;
+
+  -webkit-transition: all 0.1s ease-in-out;
+
+  -moz-transition: all 0.1s ease-in-out;
+
+  -ms-transition: all 0.1s ease-in-out;
+
+  -o-transition: all 0.1s ease-in-out;
+
+  transition: all 0.1s ease-in-out;
+
+}
+
+.ghost-input:focus {
+
+  border-bottom:1px solid #ddd;
+
+}
+
+.ghost-button {
+
+  background-color: transparent;
+
+  border:2px solid #ddd;
+
+  padding:10px 30px;
+
+  width: 100%;
+
+  min-width: 350px;
+
+  -webkit-transition: all 0.1s ease-in-out;
+
+  -moz-transition: all 0.1s ease-in-out;
+
+  -ms-transition: all 0.1s ease-in-out;
+
+  -o-transition: all 0.1s ease-in-out;
+
+  transition: all 0.1s ease-in-out;
+
+}
+
+.ghost-button:hover {
+
+  border:2px solid #515151;
+
+}
+
+p {
+
+  color: #000000;
+
+}
+
+
+button
+submit
+p
+input
+background
+

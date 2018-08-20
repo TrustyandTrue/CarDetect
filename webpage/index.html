@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+    <body>
+
+        <h1>CarSpotting</h1>
+        <p>The prediction</p>
+        <?php
+        exec("python ../classifier_dummy.py X1.png",$output);
+        var_dump($output);
+        echo "$output"
+        ?> 
+
+    </body>
+</html> 

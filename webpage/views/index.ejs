@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+
+    <meta charset="utf-8">
+
+    <title>CarSpotting</title>
+
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
+
+  </head>
+
+  
+  
+  <body>
+	  <div class="header">
+		<H1>CarSpotting</H1>
+	  </div>
+  
+      <div class="class2">
+	  <!--left third-->
+		<p align="center">Please choose an image to upload</p>
+				
+		<% if(uploadedImage !== null){ %>
+			<img src=<%=uploadedImage%> width="600" height="400" align="center-right">
+		<%}%>
+				
+		<fieldset vertical-align="bottom">
+
+			<form action="fileupload" method="post" enctype="multipart/form-data">
+				<input type="file" class="ghost-input" name="filetoupload">
+				<input type="submit" value="Upload" class="ghost-button" formaction="/upload">
+			</form>
+
+		</fieldset>
+		
+		
+
+		
+		</div>
+  
+
+  
+		<div class="class3">
+<!--middle third-->
+
+			<fieldset vertical-align="middle">
+
+			<form method="post">
+				<input type="submit" value="Predict" class="ghost-button" formaction="/predict">
+				<input type="submit" value="Show Analysis" class="ghost-button" formaction="/analyze">
+				<input type="submit" value="Do Something" class="ghost-button" formaction="/option">
+			</form>
+
+		</fieldset>
+		
+				
+		<p vertical-align="middle" align="center"> Most likely: <%=prediction1%> </p>
+		<p vertical-align="middle" align="center"> Second-most likely: <%=prediction2%> </p>
+		<p vertical-align="middle" align="center"> Third-most likely: <%=prediction3%> </p>
+
+		</div>
+
+
+	
+			<div class="class1">
+<!--right third-->
+			
+		
+		</div> 
+	
+		<div class="footer">
+		<img src="/siemens_logo.jpg" width="5%">
+		<img src="/bmw_logo.jpg" width="5%">
+		</div>
+	
+  </body>
+  
+</html>
