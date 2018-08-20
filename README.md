@@ -1,6 +1,6 @@
 # Car Detection
 
-Detect BMW models for targetted avertising
+Detect BMW models for targetted advertising
 
 # Dataset
 
